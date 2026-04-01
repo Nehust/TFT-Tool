@@ -199,12 +199,15 @@
 
     DATA.teamComps.forEach((comp, i) => {
       const card = document.createElement('div');
-      card.className = 'comp-card stagger-in';
+      const isFlex = comp.isFlex === true;
+      card.className = `comp-card stagger-in${isFlex ? ' flex-comp' : ''}`;
       card.style.animationDelay = `${i * 60}ms`;
 
       let diffClass = 'easy';
       if (comp.difficulty === 'Trung bình') diffClass = 'medium';
       else if (comp.difficulty === 'Khó') diffClass = 'hard';
+
+      const traitCount = Object.keys(comp.activeTraits).length;
 
       const champsHtml = comp.champions.map(champName => {
         const champData = DATA.champions.find(c => c.name === champName);
@@ -221,10 +224,13 @@
         `<span class="comp-trait-tag">${trait} <span class="comp-trait-count">${count}</span></span>`
       ).join('');
 
+      const flexBadge = isFlex ? `<span class="comp-flex-badge">🌈 FLEX ${traitCount} traits</span>` : '';
+
       card.innerHTML = `
         <div class="comp-header">
           <div class="comp-name">${comp.name}</div>
           <div class="comp-badges">
+            ${flexBadge}
             <span class="comp-diff ${diffClass}">${comp.difficulty}</span>
             <span class="comp-playstyle">${comp.playstyle}</span>
           </div>
@@ -676,7 +682,8 @@
     DATA.teamComps.forEach((comp, i) => {
       const opt = document.createElement('option');
       opt.value = i;
-      opt.textContent = comp.name.replace(/[⭐🎮🌌⚡🧠🗡️🤖🛡️📋🔮]/g, '').trim();
+      const label = comp.name.replace(/[⭐🎮🌌⚡🧠🗡️🤖🛡️📋🔮🔥💎🌀🎯]/g, '').trim();
+      opt.textContent = comp.isFlex ? `🌈 ${label}` : label;
       templateSelect.appendChild(opt);
     });
   }
