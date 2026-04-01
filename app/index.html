@@ -27,6 +27,7 @@
         </div>
         <nav class="nav">
           <button class="nav-btn active" data-tab="comps" id="navComps">🏆 Đội Hình</button>
+          <button class="nav-btn" data-tab="early" id="navEarly">🛡️ Early Game</button>
           <button class="nav-btn" data-tab="builder" id="navBuilder">🏗️ Builder</button>
           <button class="nav-btn" data-tab="champions" id="navChampions">⚔️ Tướng</button>
           <button class="nav-btn" data-tab="traits" id="navTraits">🔗 Tộc/Hệ</button>
@@ -48,6 +49,23 @@
           <p class="section-desc">10 đội hình meta + 5 đội hình siêu flex kích nhiều tộc hệ, phân tích dựa trên synergy và sức mạnh tổng thể</p>
         </div>
         <div class="comps-grid" id="compsGrid"></div>
+      </section>
+
+      <!-- Tab: Early Game Comps -->
+      <section class="tab-content" id="tabEarly">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="title-accent">ĐỘI HÌNH</span> EARLY GAME DEF
+          </h2>
+          <p class="section-desc">Các đội hình phòng thủ tốt nhất giai đoạn đầu trận (Level 4-6), sử dụng tướng 1-2 vàng (tối đa 1 tướng 3 vàng). Giúp giữ máu và win-streak sớm!</p>
+        </div>
+        <div class="early-level-filter" id="earlyLevelFilter">
+          <button class="early-level-btn active" data-level="all">Tất cả Level</button>
+          <button class="early-level-btn level-4" data-level="4">⭐ Level 4</button>
+          <button class="early-level-btn level-5" data-level="5">⭐⭐ Level 5</button>
+          <button class="early-level-btn level-6" data-level="6">⭐⭐⭐ Level 6</button>
+        </div>
+        <div class="early-comps-grid" id="earlyCompsGrid"></div>
       </section>
 
       <!-- Tab: Builder -->

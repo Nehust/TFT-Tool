@@ -9,6 +9,7 @@
   let DATA = null;
   let currentCostFilter = 'all';
   let currentTraitFilter = 'all';
+  let currentEarlyLevelFilter = 'all';
   let poolCostFilter = 'all';
   let poolSearchQuery = '';
 
@@ -29,6 +30,7 @@
   const champsGrid = $('#champsGrid');
   const traitsGrid = $('#traitsGrid');
   const compsGrid = $('#compsGrid');
+  const earlyCompsGrid = $('#earlyCompsGrid');
   const modalOverlay = $('#modalOverlay');
   const modalContent = $('#modalContent');
   const modalClose = $('#modalClose');
@@ -102,6 +104,7 @@
     renderChampions();
     renderTraits();
     renderComps();
+    renderEarlyComps();
     setupTabs();
     setupFilters();
     setupModal();
@@ -249,6 +252,98 @@
   }
 
   // ==============================
+  //  RENDER EARLY GAME COMPS
+  // ==============================
+  function renderEarlyComps() {
+    if (!DATA.earlyGameComps) return;
+
+    const comps = DATA.earlyGameComps.filter(c => {
+      if (currentEarlyLevelFilter === 'all') return true;
+      return c.level === parseInt(currentEarlyLevelFilter);
+    });
+
+    earlyCompsGrid.innerHTML = '';
+    const frag = document.createDocumentFragment();
+
+    // Group by level
+    const levels = [4, 5, 6];
+    const groupedComps = {};
+    comps.forEach(c => {
+      if (!groupedComps[c.level]) groupedComps[c.level] = [];
+      groupedComps[c.level].push(c);
+    });
+
+    levels.forEach(level => {
+      if (!groupedComps[level]) return;
+
+      // Level header
+      const levelHeader = document.createElement('div');
+      levelHeader.className = 'early-level-header';
+      levelHeader.innerHTML = `
+        <div class="early-level-badge level-${level}">
+          <span class="early-level-number">LV ${level}</span>
+          <span class="early-level-slots">${level} tướng</span>
+        </div>
+        <div class="early-level-line"></div>
+      `;
+      frag.appendChild(levelHeader);
+
+      // Cards container
+      const cardsContainer = document.createElement('div');
+      cardsContainer.className = 'early-cards-row';
+
+      groupedComps[level].forEach((comp, i) => {
+        const card = document.createElement('div');
+        card.className = 'early-comp-card stagger-in';
+        card.dataset.level = comp.level;
+        card.style.animationDelay = `${i * 80}ms`;
+
+        let diffClass = 'easy';
+        if (comp.difficulty === 'Trung bình') diffClass = 'medium';
+        else if (comp.difficulty === 'Khó') diffClass = 'hard';
+
+        const champsHtml = comp.champions.map(champName => {
+          const champData = DATA.champions.find(c => c.name === champName);
+          const isCarry = comp.carries.includes(champName);
+          if (!champData) return '';
+          return `
+            <div class="early-champ ${isCarry ? 'is-carry' : ''}" title="${champName} (💰${champData.cost})${isCarry ? ' ⭐ Carry' : ''}">
+              <img src="${champData.image}" alt="${champName}" loading="lazy" onerror="this.style.background='#141c46'">
+              <span class="early-champ-cost" style="background: var(--cost-${champData.cost})">💰${champData.cost}</span>
+            </div>
+          `;
+        }).join('');
+
+        const traitsHtml = Object.entries(comp.activeTraits).map(([trait, count]) =>
+          `<span class="early-trait-tag">${trait} <span class="early-trait-count">${count}</span></span>`
+        ).join('');
+
+        card.innerHTML = `
+          <div class="early-card-header">
+            <div class="early-comp-name">${comp.name}</div>
+            <span class="comp-diff ${diffClass}">${comp.difficulty}</span>
+          </div>
+          <p class="early-comp-desc">${comp.description}</p>
+          <div class="early-comp-champs">${champsHtml}</div>
+          <div class="early-comp-traits">${traitsHtml}</div>
+          <div class="early-transition">
+            <span class="early-transition-label">🔄 Chuyển tiếp:</span>
+            <span class="early-transition-text">${comp.transition}</span>
+          </div>
+          <div class="comp-click-hint">🔍 Click để xem chi tiết</div>
+        `;
+
+        card.addEventListener('click', () => openEarlyCompModal(comp));
+        cardsContainer.appendChild(card);
+      });
+
+      frag.appendChild(cardsContainer);
+    });
+
+    earlyCompsGrid.appendChild(frag);
+  }
+
+  // ==============================
   //  MODAL
   // ==============================
   function openCompModal(comp) {
@@ -302,6 +397,66 @@
 
       <div class="modal-section-title">📍 Vị Trí Đứng</div>
       <div class="modal-positioning">${comp.positioning}</div>
+    `;
+
+    modalOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function openEarlyCompModal(comp) {
+    let diffClass = 'easy';
+    if (comp.difficulty === 'Trung bình') diffClass = 'medium';
+    else if (comp.difficulty === 'Khó') diffClass = 'hard';
+
+    const champsHtml = comp.champions.map(champName => {
+      const champData = DATA.champions.find(c => c.name === champName);
+      const isCarry = comp.carries.includes(champName);
+      if (!champData) return '';
+      return `
+        <div class="modal-champ ${isCarry ? 'is-carry' : ''}">
+          <img class="modal-champ-img" src="${champData.image}" alt="${champName}" loading="lazy">
+          <div class="modal-champ-name">${champName}</div>
+          <div class="modal-champ-cost" style="color: var(--cost-${champData.cost})">💰 ${champData.cost}</div>
+          ${isCarry ? '<div class="modal-carry-label">⭐ CARRY</div>' : ''}
+        </div>
+      `;
+    }).join('');
+
+    const traitsHtml = Object.entries(comp.activeTraits).map(([trait, count]) =>
+      `<span class="modal-trait-tag">${trait} <span class="modal-trait-count">×${count}</span></span>`
+    ).join('');
+
+    const itemsHtml = Object.entries(comp.items).map(([champ, items]) => `
+      <div class="modal-item-row">
+        <span class="modal-item-champ">${champ}</span>
+        <div class="modal-item-list">
+          ${items.map(item => `<span class="modal-item">${item}</span>`).join('')}
+        </div>
+      </div>
+    `).join('');
+
+    modalContent.innerHTML = `
+      <div class="modal-comp-name">${comp.name}</div>
+      <div class="modal-comp-meta">
+        <span class="early-level-badge-modal level-${comp.level}">Level ${comp.level}</span>
+        <span class="comp-diff ${diffClass}">${comp.difficulty}</span>
+      </div>
+      <p class="modal-desc">${comp.description}</p>
+
+      <div class="modal-section-title">🏆 Đội hình (${comp.champions.length} tướng)</div>
+      <div class="modal-champs-grid">${champsHtml}</div>
+
+      <div class="modal-section-title">🔗 Tộc Hệ Kích Hoạt</div>
+      <div class="modal-traits-grid">${traitsHtml}</div>
+
+      <div class="modal-section-title">⚔️ Trang Bị Gợi Ý</div>
+      <div class="modal-items-section">${itemsHtml}</div>
+
+      <div class="modal-section-title">📍 Vị Trí Đứng</div>
+      <div class="modal-positioning">${comp.positioning}</div>
+
+      <div class="modal-section-title">🔄 Chuyển Tiếp Late Game</div>
+      <div class="modal-transition">${comp.transition}</div>
     `;
 
     modalOverlay.classList.add('active');
@@ -374,6 +529,17 @@
         btn.classList.add('active');
         currentTraitFilter = btn.dataset.type;
         renderTraits();
+      });
+    });
+
+    // Early game level filter
+    const earlyLevelBtns = $$('.early-level-btn');
+    earlyLevelBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        earlyLevelBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentEarlyLevelFilter = btn.dataset.level;
+        renderEarlyComps();
       });
     });
   }

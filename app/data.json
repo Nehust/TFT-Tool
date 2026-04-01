@@ -1722,5 +1722,197 @@
       },
       "positioning": "Mordekaiser + Pantheon hàng đầu tank. Urgot + Illaoi hàng 2. Aurora + Meepsie giữa hỗ trợ. MF hàng cuối. Fiora nhảy vào."
     }
+  ],
+  "earlyGameComps": [
+    {
+      "name": "🛡️ Bastion Wall",
+      "level": 4,
+      "difficulty": "Dễ",
+      "description": "Kháng Giáp cực dày với Bastion 2. Aatrox và Poppy là lõi tank, Jax bổ sung damage. Leona buff Arbiter cho Jax.",
+      "champions": ["Aatrox", "Poppy", "Leona", "Jax"],
+      "carries": ["Jax"],
+      "activeTraits": {
+        "Bastion": 2,
+        "Vanguard": 2,
+        "N.O.V.A.": 2,
+        "Arbiter": 2
+      },
+      "items": {
+        "Jax": ["Titan's Resolve", "Warmog's Armor", "Bramble Vest"]
+      },
+      "positioning": "Aatrox + Poppy + Leona hàng đầu chắn đạn. Jax hàng 2 deal damage.",
+      "transition": "Lên lv5 thêm Ornn (Bastion 4). Lên lv7+ chuyển sang N.O.V.A. Bastion hoặc Space Groove Vanguard."
+    },
+    {
+      "name": "💪 Brawler Frontline",
+      "level": 4,
+      "difficulty": "Dễ",
+      "description": "Máu dày vượt trội với Brawler 2 + Vanguard 2. Cho'Gath và Rek'Sai tường thịt, Nasus + Leona tạo Vanguard khiên.",
+      "champions": ["Cho'Gath", "Rek'Sai", "Nasus", "Leona"],
+      "carries": ["Cho'Gath"],
+      "activeTraits": {
+        "Brawler": 2,
+        "Vanguard": 2,
+        "Dark Star": 2,
+        "Primordian": 2
+      },
+      "items": {
+        "Cho'Gath": ["Warmog's Armor", "Gargoyle Stoneplate", "Sunfire Cape"]
+      },
+      "positioning": "Cả 4 tướng hàng đầu dàn hàng ngang chắn sát thương.",
+      "transition": "Lv5 thêm Gragas (Brawler 4). Lv6+ thêm Pantheon → chuyển sang Mecha Brawlers."
+    },
+    {
+      "name": "⚔️ Rogue Tank",
+      "level": 4,
+      "difficulty": "Trung bình",
+      "description": "Briar nhảy sau đối thủ + frontline Vanguard/Bastion giữ chân. Talon phụ damage. Combo né sát thương hiệu quả.",
+      "champions": ["Briar", "Talon", "Aatrox", "Nasus"],
+      "carries": ["Briar"],
+      "activeTraits": {
+        "Rogue": 2,
+        "Bastion": 2,
+        "Vanguard": 2,
+        "N.O.V.A.": 2
+      },
+      "items": {
+        "Briar": ["Titan's Resolve", "Hand of Justice", "Edge of Night"]
+      },
+      "positioning": "Aatrox + Nasus hàng đầu tank. Briar + Talon hàng sau, Rogue tự nhảy ra sau kẻ thù.",
+      "transition": "Lv5 thêm Gwen (Rogue 4). Lv7+ thêm Kai'Sa + Riven → Rogue Assassins full."
+    },
+    {
+      "name": "🛡️ Vanguard Bastion Fortress",
+      "level": 5,
+      "difficulty": "Dễ",
+      "description": "Siêu tank 5 tướng với Vanguard 2 + Bastion 2. Mordekaiser là core với 3 tộc hệ. Jax carry damage chính.",
+      "champions": ["Leona", "Nasus", "Aatrox", "Mordekaiser", "Jax"],
+      "carries": ["Jax", "Mordekaiser"],
+      "activeTraits": {
+        "Vanguard": 2,
+        "Bastion": 2,
+        "Dark Star": 2,
+        "Stargazer": 2,
+        "Channeler": 2
+      },
+      "items": {
+        "Jax": ["Titan's Resolve", "Bramble Vest", "Dragon's Claw"],
+        "Mordekaiser": ["Sunfire Cape", "Warmog's Armor"]
+      },
+      "positioning": "Leona + Nasus + Aatrox hàng đầu. Mordekaiser hàng 2. Jax flank cạnh.",
+      "transition": "Lv6 thêm Ornn (Bastion 4) hoặc Illaoi (Vanguard 4). Lv8+ Space Groove Vanguard hoặc N.O.V.A. Bastion."
+    },
+    {
+      "name": "💪 Brawler Shepherd",
+      "level": 5,
+      "difficulty": "Trung bình",
+      "description": "Brawler máu dày + Shepherd hồi máu cả đội. Pantheon carry với 3 tộc hệ (Timebreaker/Brawler/Replicator). Lissandra hỗ trợ.",
+      "champions": ["Cho'Gath", "Rek'Sai", "Lissandra", "Teemo", "Pantheon"],
+      "carries": ["Pantheon"],
+      "activeTraits": {
+        "Brawler": 2,
+        "Shepherd": 2,
+        "Dark Star": 2,
+        "Primordian": 2,
+        "Replicator": 2,
+        "Timebreaker": 2,
+        "Space Groove": 2
+      },
+      "items": {
+        "Pantheon": ["Titan's Resolve", "Warmog's Armor", "Sunfire Cape"]
+      },
+      "positioning": "Cho'Gath + Rek'Sai + Pantheon hàng đầu. Lissandra + Teemo hàng sau hỗ trợ Shepherd.",
+      "transition": "Lv6 thêm Gragas (Brawler 4 + Psionic). Lv8+ chuyển Mecha Brawlers hoặc Replicator Shepherd."
+    },
+    {
+      "name": "🌀 Dark Star Vanguard",
+      "level": 5,
+      "difficulty": "Trung bình",
+      "description": "Dark Star 2 hút sức mạnh khi tiêu diệt + Vanguard 2 tank cực dày. Mordekaiser là trung tâm kết nối 3 tộc hệ.",
+      "champions": ["Cho'Gath", "Lissandra", "Leona", "Nasus", "Mordekaiser"],
+      "carries": ["Mordekaiser"],
+      "activeTraits": {
+        "Dark Star": 2,
+        "Vanguard": 2,
+        "Channeler": 2,
+        "Shepherd": 2,
+        "Replicator": 2,
+        "Brawler": 2
+      },
+      "items": {
+        "Mordekaiser": ["Sunfire Cape", "Gargoyle Stoneplate", "Warmog's Armor"]
+      },
+      "positioning": "Cho'Gath + Nasus + Leona hàng đầu tank. Mordekaiser hàng 2. Lissandra hàng sau hỗ trợ.",
+      "transition": "Lv6 thêm Mordekaiser items → carry. Lv7+ thêm Kai'Sa + Karma → Dark Star Snipers."
+    },
+    {
+      "name": "🛡️ Full Tank Bastion Vanguard",
+      "level": 6,
+      "difficulty": "Dễ",
+      "description": "Combo Bastion 4 + Vanguard 2 siêu tank. Ornn 3 vàng là upgrade mạnh nhất. 6 tướng dàn frontline không thể chết.",
+      "champions": ["Aatrox", "Poppy", "Leona", "Nasus", "Jax", "Ornn"],
+      "carries": ["Jax", "Ornn"],
+      "activeTraits": {
+        "Bastion": 4,
+        "Vanguard": 2,
+        "Space Groove": 2,
+        "Meeple": 2,
+        "N.O.V.A.": 2,
+        "Stargazer": 2
+      },
+      "items": {
+        "Jax": ["Titan's Resolve", "Bramble Vest", "Dragon's Claw"],
+        "Ornn": ["Warmog's Armor", "Gargoyle Stoneplate", "Sunfire Cape"]
+      },
+      "positioning": "Aatrox + Poppy + Leona + Nasus hàng đầu. Jax + Ornn hàng 2 bổ sung.",
+      "transition": "Lv7 thêm Mordekaiser. Lv8+ Rammus + Shen → N.O.V.A. Bastion Fortress hoặc Space Groove Vanguard."
+    },
+    {
+      "name": "💪 Brawler 4 Fortress",
+      "level": 6,
+      "difficulty": "Dễ",
+      "description": "Brawler 4 máu dày + Vanguard 2 khiên. Gragas và Pantheon 2 vàng mạnh. Maokai 3 vàng mở thêm N.O.V.A. Thịt như trâu!",
+      "champions": ["Cho'Gath", "Rek'Sai", "Leona", "Gragas", "Pantheon", "Maokai"],
+      "carries": ["Pantheon", "Maokai"],
+      "activeTraits": {
+        "Brawler": 4,
+        "Vanguard": 2,
+        "Primordian": 2,
+        "Dark Star": 2,
+        "Timebreaker": 2,
+        "Psionic": 2,
+        "N.O.V.A.": 2,
+        "Replicator": 2
+      },
+      "items": {
+        "Pantheon": ["Titan's Resolve", "Warmog's Armor", "Sunfire Cape"],
+        "Maokai": ["Bramble Vest", "Dragon's Claw", "Gargoyle Stoneplate"]
+      },
+      "positioning": "Cho'Gath + Rek'Sai + Maokai + Gragas hàng đầu Brawler tường thịt. Leona hàng 2. Pantheon cạnh.",
+      "transition": "Lv7 thêm Urgot (Brawler 6). Lv8+ ASol + The Mighty Mech → Mecha Brawlers đầy đủ."
+    },
+    {
+      "name": "🌌 Space Groove Defense",
+      "level": 6,
+      "difficulty": "Trung bình",
+      "description": "Space Groove 2 tăng damage + giảm sát thương chịu. Vanguard 2 tank + Shepherd 2 hồi máu. Mordekaiser Dark Star kết nối mọi thứ.",
+      "champions": ["Nasus", "Teemo", "Leona", "Gwen", "Lissandra", "Mordekaiser"],
+      "carries": ["Gwen", "Mordekaiser"],
+      "activeTraits": {
+        "Space Groove": 2,
+        "Vanguard": 2,
+        "Shepherd": 2,
+        "Dark Star": 2,
+        "Rogue": 2,
+        "Channeler": 2,
+        "Replicator": 2
+      },
+      "items": {
+        "Gwen": ["Titan's Resolve", "Hand of Justice", "Edge of Night"],
+        "Mordekaiser": ["Sunfire Cape", "Gargoyle Stoneplate"]
+      },
+      "positioning": "Nasus + Leona + Mordekaiser hàng đầu tank. Lissandra + Teemo hàng 2 hỗ trợ. Gwen hàng sau Rogue nhảy.",
+      "transition": "Lv7 thêm Ornn + Samira. Lv8+ → Space Groove Vanguard full hoặc Arbiter Shepherd."
+    }
   ]
 }
