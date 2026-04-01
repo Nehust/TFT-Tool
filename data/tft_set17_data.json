@@ -1,0 +1,246 @@
+{
+  "set": "Set 17 - Space Gods",
+  "champions": [
+    { "name": "Aatrox", "cost": 1, "traits": ["N.O.V.A.", "Bastion"], "image": "https://tftacademy.com/_app/immutable/assets/Aatrox.DDQjo0AV.webp" },
+    { "name": "Briar", "cost": 1, "traits": ["Anima", "Primordian", "Rogue"], "image": "https://tftacademy.com/_app/immutable/assets/Briar.Bm1Rs0fh.webp" },
+    { "name": "Caitlyn", "cost": 1, "traits": ["N.O.V.A.", "Fateweaver"], "image": "https://tftacademy.com/_app/immutable/assets/Caitlyn.CiavQ9au.webp" },
+    { "name": "Cho'Gath", "cost": 1, "traits": ["Dark Star", "Brawler"], "image": "https://tftacademy.com/_app/immutable/assets/ChoGath.C1qSpKVS.webp" },
+    { "name": "Ezreal", "cost": 1, "traits": ["Timebreaker", "Sniper"], "image": "https://tftacademy.com/_app/immutable/assets/Ezreal.BrO_GXZe.webp" },
+    { "name": "Leona", "cost": 1, "traits": ["Arbiter", "Vanguard"], "image": "https://tftacademy.com/_app/immutable/assets/Leona.D5-xZxrC.webp" },
+    { "name": "Lissandra", "cost": 1, "traits": ["Dark Star", "Shepherd", "Replicator"], "image": "https://tftacademy.com/_app/immutable/assets/Lissandra.CRX8bnLL.webp" },
+    { "name": "Nasus", "cost": 1, "traits": ["Space Groove", "Vanguard"], "image": "https://tftacademy.com/_app/immutable/assets/Nasus.Dnzesyga.webp" },
+    { "name": "Poppy", "cost": 1, "traits": ["Meeple", "Bastion"], "image": "https://tftacademy.com/_app/immutable/assets/Poppy.DPIeq460.webp" },
+    { "name": "Rek'Sai", "cost": 1, "traits": ["Primordian", "Brawler"], "image": "https://tftacademy.com/_app/immutable/assets/RekSai.DYu7k2Pl.webp" },
+    { "name": "Talon", "cost": 1, "traits": ["Stargazer", "Rogue"], "image": "https://tftacademy.com/_app/immutable/assets/Talon.DYOqIr5t.webp" },
+    { "name": "Teemo", "cost": 1, "traits": ["Space Groove", "Shepherd"], "image": "https://tftacademy.com/_app/immutable/assets/Teemo.webp" },
+    { "name": "Twisted Fate", "cost": 1, "traits": ["Stargazer", "Fateweaver"], "image": "https://tftacademy.com/_app/immutable/assets/TwistedFate.webp" },
+    { "name": "Veigar", "cost": 1, "traits": ["Meeple", "Replicator"], "image": "https://tftacademy.com/_app/immutable/assets/Veigar.webp" },
+    { "name": "Akali", "cost": 2, "traits": ["N.O.V.A.", "Marauder"], "image": "https://tftacademy.com/_app/immutable/assets/Akali.webp" },
+    { "name": "Bel'Veth", "cost": 2, "traits": ["Primordian", "Challenger", "Marauder"], "image": "https://tftacademy.com/_app/immutable/assets/BelVeth.webp" },
+    { "name": "Gnar", "cost": 2, "traits": ["Meeple", "Sniper"], "image": "https://tftacademy.com/_app/immutable/assets/Gnar.webp" },
+    { "name": "Gragas", "cost": 2, "traits": ["Psionic", "Brawler"], "image": "https://tftacademy.com/_app/immutable/assets/Gragas.webp" },
+    { "name": "Gwen", "cost": 2, "traits": ["Space Groove", "Rogue"], "image": "https://tftacademy.com/_app/immutable/assets/Gwen.webp" },
+    { "name": "Jax", "cost": 2, "traits": ["Stargazer", "Bastion"], "image": "https://tftacademy.com/_app/immutable/assets/Jax.webp" },
+    { "name": "Jinx", "cost": 2, "traits": ["Anima", "Challenger"], "image": "https://tftacademy.com/_app/immutable/assets/Jinx.webp" },
+    { "name": "Meepsie", "cost": 2, "traits": ["Meeple", "Shepherd", "Voyager"], "image": "https://tftacademy.com/_app/immutable/assets/Meepsie.webp" },
+    { "name": "Milio", "cost": 2, "traits": ["Timebreaker", "Fateweaver"], "image": "https://tftacademy.com/_app/immutable/assets/Milio.webp" },
+    { "name": "Mordekaiser", "cost": 2, "traits": ["Dark Star", "Channeler", "Vanguard"], "image": "https://tftacademy.com/_app/immutable/assets/Mordekaiser.webp" },
+    { "name": "Pantheon", "cost": 2, "traits": ["Timebreaker", "Brawler", "Replicator"], "image": "https://tftacademy.com/_app/immutable/assets/Pantheon.webp" },
+    { "name": "Pyke", "cost": 2, "traits": ["Psionic", "Voyager"], "image": "https://tftacademy.com/_app/immutable/assets/Pyke.webp" },
+    { "name": "Zoe", "cost": 2, "traits": ["Arbiter", "Channeler"], "image": "https://tftacademy.com/_app/immutable/assets/Zoe.webp" },
+    { "name": "Aurora", "cost": 3, "traits": ["Anima", "Voyager"], "image": "https://tftacademy.com/_app/immutable/assets/Aurora.webp" },
+    { "name": "Diana", "cost": 3, "traits": ["Arbiter", "Challenger"], "image": "https://tftacademy.com/_app/immutable/assets/Diana.webp" },
+    { "name": "Fizz", "cost": 3, "traits": ["Meeple", "Rogue"], "image": "https://tftacademy.com/_app/immutable/assets/Fizz.webp" },
+    { "name": "Illaoi", "cost": 3, "traits": ["Anima", "Vanguard", "Shepherd"], "image": "https://tftacademy.com/_app/immutable/assets/Illaoi.webp" },
+    { "name": "Kai'Sa", "cost": 3, "traits": ["Dark Star", "Rogue"], "image": "https://tftacademy.com/_app/immutable/assets/KaiSa.webp" },
+    { "name": "Lulu", "cost": 3, "traits": ["Stargazer", "Replicator"], "image": "https://tftacademy.com/_app/immutable/assets/Lulu.webp" },
+    { "name": "Maokai", "cost": 3, "traits": ["N.O.V.A.", "Brawler"], "image": "https://tftacademy.com/_app/immutable/assets/Maokai.webp" },
+    { "name": "Miss Fortune", "cost": 3, "traits": ["Channeler", "Challenger", "Replicator"], "image": "https://tftacademy.com/_app/immutable/assets/MissFortune.webp" },
+    { "name": "Ornn", "cost": 3, "traits": ["Space Groove", "Bastion"], "image": "https://tftacademy.com/_app/immutable/assets/Ornn.webp" },
+    { "name": "Rhaast", "cost": 3, "traits": ["Redeemer"], "image": "https://tftacademy.com/_app/immutable/assets/Rhaast.webp" },
+    { "name": "Samira", "cost": 3, "traits": ["Space Groove", "Sniper"], "image": "https://tftacademy.com/_app/immutable/assets/Samira.webp" },
+    { "name": "Urgot", "cost": 3, "traits": ["Mecha", "Brawler", "Marauder"], "image": "https://tftacademy.com/_app/immutable/assets/Urgot.webp" },
+    { "name": "Viktor", "cost": 3, "traits": ["Psionic", "Channeler"], "image": "https://tftacademy.com/_app/immutable/assets/Viktor.webp" },
+    { "name": "Aurelion Sol", "cost": 4, "traits": ["Mecha", "Channeler"], "image": "https://tftacademy.com/_app/immutable/assets/AurelionSol.webp" },
+    { "name": "Corki", "cost": 4, "traits": ["Meeple", "Fateweaver"], "image": "https://tftacademy.com/_app/immutable/assets/Corki.webp" },
+    { "name": "Karma", "cost": 4, "traits": ["Dark Star", "Voyager"], "image": "https://tftacademy.com/_app/immutable/assets/Karma.webp" },
+    { "name": "Kindred", "cost": 4, "traits": ["N.O.V.A.", "Challenger"], "image": "https://tftacademy.com/_app/immutable/assets/Kindred.webp" },
+    { "name": "LeBlanc", "cost": 4, "traits": ["Arbiter", "Shepherd"], "image": "https://tftacademy.com/_app/immutable/assets/LeBlanc.webp" },
+    { "name": "Master Yi", "cost": 4, "traits": ["Psionic", "Marauder"], "image": "https://tftacademy.com/_app/immutable/assets/MasterYi.webp" },
+    { "name": "Nami", "cost": 4, "traits": ["Space Groove", "Replicator"], "image": "https://tftacademy.com/_app/immutable/assets/Nami.webp" },
+    { "name": "Nunu", "cost": 4, "traits": ["Stargazer", "Vanguard"], "image": "https://tftacademy.com/_app/immutable/assets/Nunu.webp" },
+    { "name": "Rammus", "cost": 4, "traits": ["Meeple", "Bastion"], "image": "https://tftacademy.com/_app/immutable/assets/Rammus.webp" },
+    { "name": "Riven", "cost": 4, "traits": ["Timebreaker", "Rogue"], "image": "https://tftacademy.com/_app/immutable/assets/Riven.webp" },
+    { "name": "Tahm Kench", "cost": 4, "traits": ["Oracle", "Brawler"], "image": "https://tftacademy.com/_app/immutable/assets/TahmKench.webp" },
+    { "name": "The Mighty Mech", "cost": 4, "traits": ["Mecha", "Voyager"], "image": "https://tftacademy.com/_app/immutable/assets/TheMightyMech.webp" },
+    { "name": "Xayah", "cost": 4, "traits": ["Stargazer", "Sniper"], "image": "https://tftacademy.com/_app/immutable/assets/Xayah.webp" },
+    { "name": "Bard", "cost": 5, "traits": ["Meeple", "Channeler"], "image": "https://tftacademy.com/_app/immutable/assets/Bard.webp" },
+    { "name": "Blitzcrank", "cost": 5, "traits": ["Party Animal", "Space Groove", "Vanguard"], "image": "https://tftacademy.com/_app/immutable/assets/Blitzcrank.webp" },
+    { "name": "Fiora", "cost": 5, "traits": ["Divine Duelist", "Anima", "Marauder"], "image": "https://tftacademy.com/_app/immutable/assets/Fiora.webp" },
+    { "name": "Graves", "cost": 5, "traits": ["Factory New"], "image": "https://tftacademy.com/_app/immutable/assets/Graves.webp" },
+    { "name": "Jhin", "cost": 5, "traits": ["Dark Star", "Eradicator", "Sniper"], "image": "https://tftacademy.com/_app/immutable/assets/Jhin.webp" },
+    { "name": "Morgana", "cost": 5, "traits": ["Dark Lady"], "image": "https://tftacademy.com/_app/immutable/assets/Morgana.webp" },
+    { "name": "Shen", "cost": 5, "traits": ["Bulwark", "Bastion"], "image": "https://tftacademy.com/_app/immutable/assets/Shen.webp" },
+    { "name": "Sona", "cost": 5, "traits": ["Commander", "Psionic", "Shepherd"], "image": "https://tftacademy.com/_app/immutable/assets/Sona.webp" },
+    { "name": "Vex", "cost": 5, "traits": ["Doomer"], "image": "https://tftacademy.com/_app/immutable/assets/Vex.webp" },
+    { "name": "Zed", "cost": 5, "traits": ["Galaxy Hunter"], "image": "https://tftacademy.com/_app/immutable/assets/Zed.webp" }
+  ],
+  "traits": {
+    "Anima": { "breakpoints": [2, 4, 6], "type": "origin", "description": "Tướng Anima nhận thêm Tốc Đánh. Khi thực hiện số đòn đánh nhất định, tạo ra 1 linh hồn Anima hỗ trợ chiến đấu.", "champions": ["Briar", "Jinx", "Aurora", "Illaoi", "Fiora"] },
+    "Arbiter": { "breakpoints": [2, 4], "type": "class", "description": "Khi bắt đầu trận, Arbiter ban phép cho đồng minh gần nhất. Đồng minh được buff sẽ nhận thêm Tốc Đánh và hồi Mana khi tiêu diệt.", "champions": ["Leona", "Zoe", "Diana", "LeBlanc"] },
+    "Bastion": { "breakpoints": [2, 4, 6], "type": "class", "description": "Tướng Bastion nhận thêm Giáp và Kháng Phép. Mỗi vài giây, tướng có Giáp/Kháng Phép cao nhất tạo khiên cho bản thân.", "champions": ["Aatrox", "Poppy", "Jax", "Ornn", "Rammus", "Shen"] },
+    "Brawler": { "breakpoints": [2, 4, 6], "type": "class", "description": "Tướng Brawler nhận thêm Máu tối đa. Brawler gây thêm sát thương dựa trên % Máu bổ sung.", "champions": ["Cho'Gath", "Rek'Sai", "Gragas", "Pantheon", "Maokai", "Urgot", "Tahm Kench"] },
+    "Bulwark": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Shen. Shen bảo vệ đồng minh bằng cách chặn sát thương cho họ.", "champions": ["Shen"] },
+    "Challenger": { "breakpoints": [2, 4, 6], "type": "class", "description": "Tướng Challenger nhận thêm Tốc Đánh. Khi tiêu diệt mục tiêu, Challenger lao tới kẻ địch mới và nhận tốc đánh bổ sung.", "champions": ["Bel'Veth", "Jinx", "Diana", "Miss Fortune", "Kindred"] },
+    "Channeler": { "breakpoints": [2, 4, 6], "type": "class", "description": "Tướng Channeler nhận thêm Sức Mạnh Kỹ Năng. Sau khi thi triển kỹ năng, tạo vùng năng lượng tăng sát thương cho đồng minh.", "champions": ["Mordekaiser", "Zoe", "Miss Fortune", "Viktor", "Aurelion Sol", "Bard"] },
+    "Commander": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Sona. Sona truyền cảm hứng cho đồng đội, tăng sức mạnh tổng thể.", "champions": ["Sona"] },
+    "Dark Lady": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Morgana. Morgana gieo rắc bóng tối lên kẻ địch.", "champions": ["Morgana"] },
+    "Dark Star": { "breakpoints": [2, 4, 6], "type": "origin", "description": "Khi tướng Dark Star bị hạ gục hoặc tiêu diệt kẻ thù, tướng Dark Star gần nhất nhận tăng sát thương, Tốc Đánh và Sức Mạnh Kỹ Năng.", "champions": ["Cho'Gath", "Lissandra", "Mordekaiser", "Kai'Sa", "Karma", "Jhin"] },
+    "Divine Duelist": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Fiora. Fiora thách đấu kẻ mạnh nhất đối phương.", "champions": ["Fiora"] },
+    "Doomer": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Vex. Vex gieo rắc nỗi sợ hãi lên kẻ thù.", "champions": ["Vex"] },
+    "Eradicator": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Jhin. Jhin thực hiện đòn kết liễu với sát thương cực mạnh.", "champions": ["Jhin"] },
+    "Factory New": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Graves. Graves sở hữu sức mạnh vũ khí đặc biệt.", "champions": ["Graves"] },
+    "Fateweaver": { "breakpoints": [2, 4], "type": "class", "description": "Tướng Fateweaver dệt nên vận mệnh. Mỗi đầu vòng, ngẫu nhiên tăng chỉ số cho đồng minh. Số đồng minh được buff tăng theo mốc.", "champions": ["Caitlyn", "Twisted Fate", "Milio", "Corki"] },
+    "Galaxy Hunter": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Zed. Zed xóa sổ mục tiêu ưu tiên từ bóng tối.", "champions": ["Zed"] },
+    "Marauder": { "breakpoints": [2, 4], "type": "class", "description": "Tướng Marauder nhận thêm Sức Mạnh Tấn Công. Sau khi tiêu diệt kẻ thù, Marauder cướp vàng và nhận thêm buff.", "champions": ["Akali", "Bel'Veth", "Urgot", "Master Yi", "Fiora"] },
+    "Mecha": { "breakpoints": [2, 4], "type": "origin", "description": "Tướng Mecha hợp nhất sức mạnh cơ giới. Tăng Sức Mạnh Tấn Công & Sức Mạnh Kỹ Năng. Khi tướng Mecha bị hạ, truyền lực cho Mecha còn lại.", "champions": ["Urgot", "Aurelion Sol", "The Mighty Mech"] },
+    "Meeple": { "breakpoints": [2, 4, 6, 8], "type": "origin", "description": "Tướng Meeple triệu hồi Meeple nhỏ để chiến đấu. Meeple tăng sức mạnh theo số lượng trait kích hoạt. Ở mốc 8, đội hình cực kỳ mạnh.", "champions": ["Poppy", "Veigar", "Gnar", "Meepsie", "Fizz", "Corki", "Rammus", "Bard"] },
+    "N.O.V.A.": { "breakpoints": [2, 4], "type": "origin", "description": "Tướng N.O.V.A. nhận N.O.V.A. Strike - đòn đánh đặc biệt mạnh mẽ sau khi thi triển kỹ năng một số lần. N.O.V.A. Strike gây hiệu ứng bổ sung.", "champions": ["Aatrox", "Caitlyn", "Akali", "Maokai", "Kindred"] },
+    "Oracle": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Tahm Kench. Tahm Kench nhìn thấu tương lai và dự báo.", "champions": ["Tahm Kench"] },
+    "Party Animal": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Blitzcrank. Blitzcrank mang không khí lễ hội vào trận đấu.", "champions": ["Blitzcrank"] },
+    "Primordian": { "breakpoints": [2, 3], "type": "origin", "description": "Tướng Primordian nhận bônus nguyên tố ngẫu nhiên mỗi trận. Ở mốc 3, nhận thêm 1 bônus và tất cả bônus mạnh hơn.", "champions": ["Briar", "Rek'Sai", "Bel'Veth"] },
+    "Psionic": { "breakpoints": [2, 4], "type": "origin", "description": "Tướng Psionic chia sẻ liên kết tâm linh. Khi một Psionic thi triển kỹ năng, các Psionic khác nhận thêm Mana. Sát thương kỹ năng tăng theo mốc.", "champions": ["Gragas", "Pyke", "Viktor", "Master Yi", "Sona"] },
+    "Redeemer": { "breakpoints": [1], "type": "unique", "description": "Đặc tính riêng của Rhaast. Rhaast cứu chuộc linh hồn trong trận chiến.", "champions": ["Rhaast"] },
+    "Replicator": { "breakpoints": [2, 4, 6], "type": "class", "description": "Tướng Replicator tạo bản sao nhỏ hơn của bản thân ở đầu trận. Bản sao có % chỉ số gốc, tăng theo mốc trait.", "champions": ["Lissandra", "Veigar", "Pantheon", "Lulu", "Miss Fortune", "Nami"] },
+    "Rogue": { "breakpoints": [2, 4, 6], "type": "class", "description": "Tướng Rogue nhảy ra phía sau kẻ thù ở đầu trận. Rogue gây thêm sát thương chí mạng và nhận thêm tốc độ di chuyển.", "champions": ["Briar", "Talon", "Gwen", "Fizz", "Kai'Sa", "Riven"] },
+    "Shepherd": { "breakpoints": [2, 4, 6], "type": "class", "description": "Tướng Shepherd hỗ trợ đồng minh bằng cách hồi máu và tạo khiên. Shepherd mạnh hơn khi đồng minh gần bên nhiều.", "champions": ["Lissandra", "Teemo", "Meepsie", "Illaoi", "LeBlanc", "Sona"] },
+    "Sniper": { "breakpoints": [2, 4, 6], "type": "class", "description": "Tướng Sniper gây thêm sát thương dựa trên khoảng cách đến mục tiêu. Càng xa càng mạnh.", "champions": ["Ezreal", "Gnar", "Samira", "Xayah", "Jhin"] },
+    "Space Groove": { "breakpoints": [2, 4, 6], "type": "origin", "description": "Tướng Space Groove lên 'Groove'. Trong Groove, tướng nhận thêm sát thương và giảm sát thương chịu. Groove lan truyền khi tiêu diệt kẻ thù.", "champions": ["Nasus", "Teemo", "Gwen", "Ornn", "Samira", "Nami", "Blitzcrank"] },
+    "Stargazer": { "breakpoints": [2, 4, 6], "type": "origin", "description": "Tướng Stargazer nhìn vào các vì sao. Ở đầu trận, kẻ thù bị giảm Tốc Đánh. Stargazer nhận thêm Sức Mạnh Kỹ Năng.", "champions": ["Talon", "Twisted Fate", "Jax", "Lulu", "Nunu", "Xayah"] },
+    "Timebreaker": { "breakpoints": [2, 4], "type": "origin", "description": "Tướng Timebreaker bẻ cong thời gian. Nhận thêm Tốc Đánh, và sau khi thi triển kỹ năng, thời gian chậm lại cho kẻ thù xung quanh.", "champions": ["Ezreal", "Milio", "Pantheon", "Riven"] },
+    "Vanguard": { "breakpoints": [2, 4, 6], "type": "class", "description": "Tướng Vanguard nhận thêm Giáp. Khi nhận sát thương, Vanguard tạo lá chắn cho đồng minh gần nhất.", "champions": ["Leona", "Nasus", "Mordekaiser", "Illaoi", "Nunu", "Blitzcrank"] },
+    "Voyager": { "breakpoints": [2, 4], "type": "class", "description": "Tướng Voyager du hành giữa các vì sao. Ở đầu vòng, Voyager nhận Mana bổ sung. Khi thi triển kỹ năng, teleport tới vị trí tối ưu.", "champions": ["Meepsie", "Pyke", "Aurora", "Karma", "The Mighty Mech"] }
+  },
+  "teamComps": [
+    {
+      "name": "⭐ Dark Star Snipers",
+      "difficulty": "Trung bình",
+      "playstyle": "Slow Roll / Standard",
+      "description": "Combo Dark Star hút sức mạnh khi tiêu diệt + Sniper bắn xa cực mạnh. Jhin & Xayah là carry chính.",
+      "champions": ["Cho'Gath", "Lissandra", "Ezreal", "Mordekaiser", "Gnar", "Kai'Sa", "Samira", "Karma", "Xayah", "Jhin"],
+      "carries": ["Jhin", "Xayah"],
+      "activeTraits": { "Dark Star": 6, "Sniper": 6, "Replicator": 2, "Brawler": 2 },
+      "items": {
+        "Jhin": ["Infinity Edge", "Last Whisper", "Giant Slayer"],
+        "Xayah": ["Guinsoo's Rageblade", "Runaan's Hurricane", "Hand of Justice"]
+      },
+      "positioning": "Xếp Sniper hàng cuối góc bản đồ. Tank Dark Star (Cho'Gath, Mordekaiser) hàng đầu. Gnar + Samira hàng 3 snipe."
+    },
+    {
+      "name": "🎮 Meeple Army",
+      "difficulty": "Khó",
+      "playstyle": "Fast 8 / Slow Roll",
+      "description": "Đội hình 8 Meeple toàn lực + hỗ trợ Replicator. Bard & Corki carry cuối game, Lulu tạo bản sao.",
+      "champions": ["Poppy", "Veigar", "Gnar", "Meepsie", "Fizz", "Lulu", "Corki", "Rammus", "Bard", "Nami"],
+      "carries": ["Bard", "Corki"],
+      "activeTraits": { "Meeple": 8, "Replicator": 4, "Bastion": 2, "Sniper": 2, "Shepherd": 2 },
+      "items": {
+        "Bard": ["Spear of Shojin", "Jeweled Gauntlet", "Hextech Gunblade"],
+        "Corki": ["Guinsoo's Rageblade", "Giant Slayer", "Hand of Justice"]
+      },
+      "positioning": "Rammus + Poppy hàng đầu tanker. Bard & Corki an toàn phía sau. Meepsie + Lulu giữa hỗ trợ. Nami hàng cuối."
+    },
+    {
+      "name": "🌌 Space Groove Vanguard",
+      "difficulty": "Dễ",
+      "playstyle": "Standard / Fast 8",
+      "description": "Tank cực dày với Vanguard 6 + hiệu ứng Groove bất tử. Blitzcrank 5 vàng là chìa khóa cuối game.",
+      "champions": ["Nasus", "Teemo", "Leona", "Gwen", "Ornn", "Illaoi", "Samira", "Nami", "Nunu", "Blitzcrank"],
+      "carries": ["Samira", "Blitzcrank"],
+      "activeTraits": { "Space Groove": 6, "Vanguard": 6, "Shepherd": 2, "Sniper": 2 },
+      "items": {
+        "Samira": ["Infinity Edge", "Last Whisper", "Bloodthirster"],
+        "Blitzcrank": ["Warmog's Armor", "Gargoyle Stoneplate", "Redemption"]
+      },
+      "positioning": "Nasus, Leona, Illaoi, Nunu, Blitzcrank hàng đầu tạo tường Vanguard. Samira hàng giữa. Nami, Teemo hàng sau."
+    },
+    {
+      "name": "⚡ Stargazer Challengers",
+      "difficulty": "Trung bình",
+      "playstyle": "Standard",
+      "description": "Stargazer giảm tốc đánh kẻ thù + Challenger 6 lao vào tiêu diệt. Xayah & Diana carry chính.",
+      "champions": ["Talon", "Twisted Fate", "Jax", "Jinx", "Lulu", "Diana", "Miss Fortune", "Nunu", "Kindred", "Xayah"],
+      "carries": ["Xayah", "Diana"],
+      "activeTraits": { "Stargazer": 6, "Challenger": 6, "Bastion": 2, "Sniper": 2 },
+      "items": {
+        "Xayah": ["Guinsoo's Rageblade", "Giant Slayer", "Quicksilver"],
+        "Diana": ["Hextech Gunblade", "Ionic Spark", "Titan's Resolve"]
+      },
+      "positioning": "Jax + Nunu hàng đầu tanker. Diana + Kindred nhảy vào backline. Xayah hàng cuối an toàn. MF giữa."
+    },
+    {
+      "name": "🧠 Psionic Channelers",
+      "difficulty": "Trung bình",
+      "playstyle": "Standard / Fast 8",
+      "description": "Psionic chia sẻ Mana + Channeler 6 tăng sức mạnh kỹ năng. Viktor & ASol là core carry. Bard thêm sức mạnh cuối game.",
+      "champions": ["Gragas", "Pyke", "Mordekaiser", "Zoe", "Viktor", "Miss Fortune", "Aurelion Sol", "Master Yi", "Bard", "Sona"],
+      "carries": ["Viktor", "Aurelion Sol"],
+      "activeTraits": { "Psionic": 4, "Channeler": 6, "Brawler": 2, "Vanguard": 2, "Voyager": 2, "Marauder": 2 },
+      "items": {
+        "Viktor": ["Spear of Shojin", "Jeweled Gauntlet", "Rabadon's Deathcap"],
+        "Aurelion Sol": ["Hextech Gunblade", "Jeweled Gauntlet", "Giant Slayer"]
+      },
+      "positioning": "Gragas + Mordekaiser hàng đầu tank. Viktor & ASol giữa bản đồ. Sona + Bard hàng sau hỗ trợ. Master Yi flank."
+    },
+    {
+      "name": "🗡️ Rogue Assassins",
+      "difficulty": "Khó",
+      "playstyle": "Hyper Roll / Standard",
+      "description": "6 Rogue nhảy ra sau tiêu diệt carry đối phương. Kai'Sa & Riven là damage dealer chính. Diana + LeBlanc bổ sung late game.",
+      "champions": ["Briar", "Talon", "Gwen", "Fizz", "Kai'Sa", "Riven", "Twisted Fate", "Jax", "Diana", "LeBlanc"],
+      "carries": ["Kai'Sa", "Riven"],
+      "activeTraits": { "Rogue": 6, "Stargazer": 2, "Arbiter": 2, "Bastion": 2, "Challenger": 2, "Shepherd": 2 },
+      "items": {
+        "Kai'Sa": ["Infinity Edge", "Jeweled Gauntlet", "Hand of Justice"],
+        "Riven": ["Bloodthirster", "Titan's Resolve", "Edge of Night"]
+      },
+      "positioning": "Rogue tự nhảy ra sau đối thủ. Jax hàng đầu tank. TF góc bản đồ. LeBlanc + Diana hỗ trợ."
+    },
+    {
+      "name": "🤖 Mecha Brawlers",
+      "difficulty": "Dễ",
+      "playstyle": "Standard / Slow Roll",
+      "description": "Mecha truyền lực + Brawler máu dày. The Mighty Mech & Aurelion Sol carry. Tahm Kench + Nunu bổ sung tank cuối game.",
+      "champions": ["Cho'Gath", "Rek'Sai", "Gragas", "Pantheon", "Urgot", "Maokai", "Tahm Kench", "Nunu", "Aurelion Sol", "The Mighty Mech"],
+      "carries": ["Aurelion Sol", "The Mighty Mech"],
+      "activeTraits": { "Brawler": 6, "Mecha": 4, "Primordian": 2, "Timebreaker": 2, "Vanguard": 2 },
+      "items": {
+        "Aurelion Sol": ["Spear of Shojin", "Jeweled Gauntlet", "Hextech Gunblade"],
+        "The Mighty Mech": ["Warmog's Armor", "Titan's Resolve", "Dragon's Claw"]
+      },
+      "positioning": "6 Brawler + Nunu xếp hàng đầu tạo tường thịt. ASol & Mighty Mech hàng sau an toàn. Tahm Kench flank."
+    },
+    {
+      "name": "🛡️ N.O.V.A. Bastion Fortress",
+      "difficulty": "Dễ",
+      "playstyle": "Standard",
+      "description": "N.O.V.A. Strike đặc biệt + Bastion 6 siêu tank. Kindred carry chính, Shen end-game mạnh. Akali flank assassin.",
+      "champions": ["Aatrox", "Caitlyn", "Poppy", "Akali", "Jax", "Maokai", "Ornn", "Kindred", "Rammus", "Shen"],
+      "carries": ["Kindred", "Akali"],
+      "activeTraits": { "N.O.V.A.": 4, "Bastion": 6, "Brawler": 2, "Marauder": 2, "Meeple": 2 },
+      "items": {
+        "Kindred": ["Guinsoo's Rageblade", "Runaan's Hurricane", "Hand of Justice"],
+        "Akali": ["Infinity Edge", "Hand of Justice", "Edge of Night"]
+      },
+      "positioning": "Aatrox, Poppy, Jax, Ornn, Rammus, Shen hàng đầu Bastion tường. Kindred hàng cuối. Akali hàng giữa."
+    },
+    {
+      "name": "📋 Replicator Shepherd",
+      "difficulty": "Trung bình",
+      "playstyle": "Slow Roll / Standard",
+      "description": "Replicator 6 tạo bản sao + Shepherd 6 hồi máu cả đội. Nami & Lulu carry. Sona + LeBlanc bổ sung end-game.",
+      "champions": ["Lissandra", "Veigar", "Teemo", "Pantheon", "Meepsie", "Lulu", "Illaoi", "LeBlanc", "Nami", "Sona"],
+      "carries": ["Nami", "Lulu"],
+      "activeTraits": { "Replicator": 6, "Shepherd": 6, "Meeple": 2, "Timebreaker": 2, "Arbiter": 2 },
+      "items": {
+        "Nami": ["Spear of Shojin", "Jeweled Gauntlet", "Hextech Gunblade"],
+        "Lulu": ["Morellonomicon", "Rabadon's Deathcap", "Blue Buff"]
+      },
+      "positioning": "Pantheon + Illaoi hàng đầu. Meepsie + LeBlanc giữa. Nami, Lulu, Sona an toàn hàng sau cùng."
+    },
+    {
+      "name": "🔮 Arbiter Shepherd Control",
+      "difficulty": "Khó",
+      "playstyle": "Fast 8 / Fast 9",
+      "description": "Arbiter 4 buff đồng minh + Shepherd 6 hỗ trợ. LeBlanc & Sona carry cuối game. Comp kiểm soát cực mạnh level 10.",
+      "champions": ["Leona", "Lissandra", "Teemo", "Zoe", "Meepsie", "Illaoi", "Diana", "LeBlanc", "Nunu", "Sona"],
+      "carries": ["LeBlanc", "Diana"],
+      "activeTraits": { "Arbiter": 4, "Shepherd": 6, "Vanguard": 4, "Challenger": 2 },
+      "items": {
+        "LeBlanc": ["Spear of Shojin", "Rabadon's Deathcap", "Jeweled Gauntlet"],
+        "Diana": ["Hextech Gunblade", "Ionic Spark", "Quicksilver"]
+      },
+      "positioning": "Leona + Illaoi + Nunu hàng đầu Vanguard. Zoe & LeBlanc giữa buff. Diana & Meepsie hàng cuối. Sona hỗ trợ."
+    }
+  ]
+}
